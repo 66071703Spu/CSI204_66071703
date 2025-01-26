@@ -15,3 +15,18 @@ div{
     margin: 10px;
     padding: 10px;
 }
+.btn{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    color: green;
+    border: 2px solid green;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+.btn:active{
+    top: 3px;
+    position: relative;
+}
