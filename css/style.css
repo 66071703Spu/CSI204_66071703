@@ -1,32 +1,43 @@
-*{
+* {
     font-family: sans-serif;
-    font-size: large;
+    font-size: 1rem; 
     color: purple;
+    box-sizing: border-box; 
 }
-header{
-    font: bolder;
+
+header {
+    font-weight: bolder; 
     text-align: center;
     background-color: purple;
     padding: 10px;
     margin: 10px;
+    color: white; 
 }
-div{
-   background-color: white;
+
+div {
+    background-color: white;
     margin: 10px;
     padding: 10px;
 }
-.btn{
+
+.btn {
     background-color: white;
-    padding: 5px;
+    padding: 10px 20px; 
     margin: 5px;
     color: green;
     border: 2px solid green;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
 }
-.btn:hover{
+
+.btn:hover {
     background-color: green;
     color: white;
+    transform: scale(1.05); 
 }
-.btn:active{
-    top: 3px;
-    position: relative;
+
+.btn:active {
+    transform: translateY(3px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
